@@ -76,7 +76,6 @@
 }
 
 .content-section .social i {
-    color: #a52a2a;
     font-size: 30px;
     padding: 0px 10px;
 }
@@ -84,6 +83,7 @@
 .content-section .social i:hover {
     color: #3d3d3d;
 }
+
 
 @media screen and (max-width: 768px) {
     .container {
