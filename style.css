@@ -1,0 +1,267 @@
+.parallax {
+    height: 50vh;
+    background-image: url("Windows\ 11\ Wallpaper\ 13.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.white{
+    background-color: white;;
+    padding: 25px;
+    height: auto;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.white-section {
+    background-color: #fff;
+
+}
+
+.testimonial-image {
+
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+.parallax-content {
+    position: relative;
+    top: 50%;
+    /* vertically align an element in the center of its parent element */
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    padding: 25px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+    text-align: center;
+    font-size: 3rem;
+    color: #404040;
+    text-decoration: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-mini {
+    text-align: center;
+    font-size: 25px;
+    color: #6e6e6e;
+    text-decoration: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-image: url("Windows\ 11\ Wallpaper\ 12.jpg");
+    font-family: montserrat;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.section-header {
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 25px;
+    color: #fff;
+}
+
+.section-header:after {
+    content: '';
+    height: 3px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 100px);
+    background: #fff;
+}
+
+.section-header span {
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.testimonials {
+    max-width: 1000px;
+    padding: 0 15px 50px;
+    margin: 0 auto 80px auto;
+}
+
+.single-item {
+    background: #fff;
+    color: #111;
+    padding: 15px;
+    margin: 50px 15px;
+}
+
+.profile {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.img-area {
+    margin: 0 15px 15px 15px;
+}
+
+.img-area img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 7px solid blueviolet;
+}
+
+.content {
+    font-size: 18px;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.content p span {
+    font-size: 48px;
+    margin-right: 20px;
+    color: blueviolet;
+}
+
+.socials i {
+    margin-right: 25px;
+}
+
+.bio h4 {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: blueviolet;
+}
+
+
+footer {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background: #121315;
+}
+footer ul {
+  list-style: none;
+}
+footer p {
+  color: #fff;
+  max-width: 25em;
+  font-size: 0.9em;
+  line-height: 23px;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+.brand {
+  display: block;
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+.media-icons li,
+.services-icons li {
+  display: inline-block;
+  margin: 0.5em 0.5em 0.5em 0;
+}
+.media-icons a {
+  font-size: 1.1em;
+  width: 2em;
+  height: 2em;
+  border: 1px #fff solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.media-icons a:hover {
+  background: #fff;
+  color: #111;
+}
+.services-icons a {
+  font-size: 1.6em;
+}
+.services-icons a:hover {
+  color: #94fbab;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(138, 208, 153, 0.36);
+  padding: 2em;
+}
+.footer .menu {
+  margin-bottom: 1em;
+}
+.footer .menu li {
+  display: inline-block;
+  margin: 0 0.7em 0.7em 0;
+  text-align: center;
+}
+.footer .menu a {
+  transition: 0.3s;
+  font-weight: 600;
+}
+.footer .menu a:hover {
+  color: #94fbab;
+}
+.input-wrap {
+  margin: 1em 0;
+  display: flex;
+}
+.input-wrap input {
+  padding: 0.5em;
+  border: none;
+  background: #20232a;
+  color: #ccc;
+}
+.input-wrap input:focus {
+  outline: none;
+}
+.input-wrap button {
+  padding: 0.8em;
+  background: #94fbab;
+  border: none;
+  color: #217634;
+  transition: 0.3s;
+}
+.input-wrap button:hover {
+  background: #fff;
+  color: #111;
+}
+/* == responsive == */
+@media screen and (max-width: 900px) {
+  .footer .container {
+    flex-direction: column;
+  }
+}
