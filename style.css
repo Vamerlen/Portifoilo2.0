@@ -30,6 +30,9 @@
     margin: 20px;
 }
 
+video {
+    height: auto;
+}
 
 .parallax-content {
     position: relative;
